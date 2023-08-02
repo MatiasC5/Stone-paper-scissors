@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <title>Stone Paper Scissors</title>
+</head>
+
+<body>
+    <main>
+        <aside class="points">
+            <h1>Points</h1>
+            <div id="players-points">
+                <h3>Player 1</h3>
+                <h3>Player 2</h3>
+            </div>
+
+            <ul class="points-list">
+                <li id="points-player-one">-</li>
+                <li id="points-player-two">-</li>
+            </ul>
+        </aside>
+        <section class="game-display">
+            <div class="first-player-choice-container">
+                <p>Player 1</p>
+                <img src="" alt="" class="first-player-choice">
+            </div>
+            <div class="computer-choice-container">
+                <p>Player 2</p>
+                <img src="" alt="" class="computer-choice">
+            </div>
+        </section>
+
+        <section class="game-buttons">
+            <button id="stone-btn" value="stone">
+                <img src="./images/icons8-roca-48.png" alt="stone-image">
+            </button>
+            <button id="paper-btn" value="paper">
+                <img src="./images/icons8-papel-64.png" alt="paper-image">
+            </button>
+            <button id="scissors-btn" value="scissors">
+                <img src="./images//icons8-cortar-con-tijeras-64.png" alt="scissors-image">
+            </button>
+        </section>
+        <button id="reset-btn">RESET</button>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+.game-display {
+    background-color: black;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-player-choice-container,
+.computer-choice-container {
+    width: 100%;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.game-display img {
+    margin: 15px;
+    width: 70px;
+}
+
+.game-buttons {
+    display: flex;
+}
+
+.game-buttons button {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    background-color: #09f;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.game-buttons button:hover {
+    background-color: rgb(82, 165, 35);
+}
+
+.points {
+    height: 100vh;
+    width: 300px;
+    background-color: antiquewhite;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border: 3px solid black;
+}
+
+.points h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#players-points {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.points-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 16px;
+    font-size: 24px;
+}
+
+#reset-btn {
+    width: 200px;
+    height: 60px;
+    background-color: #a32;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#reset-btn:hover {
+    background-color: rgb(82, 165, 35);
+    color: black;
+}
